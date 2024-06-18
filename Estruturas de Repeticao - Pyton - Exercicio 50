@@ -1,0 +1,13 @@
+# 50 - Cho tem 1.5 metros e cresce 2 centímetros por ano, enquanto Zé te 1.10 metros e cresce 3
+# centímetros por ano. Escreva um programa que calcule e imprima quantos anos serão necessários para
+# que Zé seja maior que Chico.
+
+chico = 1.5
+ze = 1.10
+ano = 0
+
+while ze < chico:
+    chico = chico + 0.02
+    ze = ze + 0.03
+    ano = ano + 1
+print(f'vão demorar {ano} para que Zé seja maior que Chico')
